@@ -7,8 +7,9 @@ function App() {
 
   return (
     <div>
+
       <NavBar />
-      <ItemListContainer gretting="pruebas1 " />
+      <ItemListContainer gretting="pruebas" />
     </div>
   )
 }
