@@ -1,0 +1,18 @@
+.shoppingCart-img {
+    width: 55px;
+    height: 55px;
+}
+.ctn-shoppingCart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.cartCount{
+    background-color:rgb(105, 105, 105) ;
+    border-radius: 5px;
+    color: aquamarine;
+    padding: 0 0.4rem;
+    margin: 0;
+}
