@@ -5,10 +5,19 @@
 .brand {
     font-weight: bold;
     font-size: 20px; }
-  
+
+.brand-img{
+  height: 4rem;
+  width: 4rem;
+}
   .site-header {
+   
     position: relative;
-    background-color: #292929; }
+    background-color: var(--site-header) ;
+    margin-bottom: 1rem;
+  
+  }
+
   .nav__wrapper{
     list-style: none;
   }
@@ -46,8 +55,8 @@
   
   .nav__item a {
     display: block;
-    color: #b4b6b6;
-
+    color:  var(--backgroun-0);
+font-weight: 600;
     padding: 1.5rem 1rem; }
   
   .nav__toggle {
@@ -57,7 +66,9 @@
         display: block;
         position: absolute;
         right: 1rem;
-        top: 1rem; } }
+        top: 1rem; } 
+      
+      }
 
     .wrapper {
             width: 680px;
@@ -65,13 +76,16 @@
             padding-right: 1rem;
             margin-left: auto;
             margin-right: auto;
+            
           }
 
           a {
             font-weight: 500;
-            color: #646cff;
+            color:  var(--title-dark);;
             text-decoration: inherit;
           }
           a:hover {
             color: #0b0c16;
           }
+
+         

@@ -1,4 +1,15 @@
 :root {
+  --mobile: 799px;
+  --desktop: 800px;
+  --backgroun-0:#ffffff;
+  --site-header:#0a8a4f;
+  --title-dark:#000;
+  --green-50:#69c16f;
+  --color:#d6ec8e;
+ --card-100:#ffffff;
+ --blue-50:#3a76ed;
+ --grey-50:#b2b2b2;
+
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -6,7 +17,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: var(--backgroun-0);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -61,3 +72,28 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 } */
+
+
+.body {
+font-family: "system-ui";
+line-height: 1.4;}
+
+.btn {
+  
+  color: var(--backgroun-0);
+  border-radius: 5px;
+  font-weight: 500;
+  padding:0.5rem  1.5rem ;
+}
+
+.btn--info{
+  background: var(--grey-50);
+
+}
+
+.btn--action {
+  
+  
+  background: var(--blue-50);
+ 
+}
